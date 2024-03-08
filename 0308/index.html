@@ -10,11 +10,12 @@
         #main
         {
             width:800px;
-            height:700px;
+            height:2000px;
             background-color:deeppink;
             margin:20px;
             margin-left:auto;
             margin-right:auto;
+            position:relative;
 
         }
 
@@ -22,8 +23,11 @@
         {
             width:600px;
             height:100px;
-            background-color:pink;
+            background-color:blue;
             margin-bottom:10px;
+            position:fixed;
+            bottom:0px;
+            z-index:99;
         }
 
         #div2 
@@ -32,6 +36,8 @@
             height: 100px;
             background-color:hotpink;
             margin-bottom: 10px;
+            position:relative;
+            left:-50px;
         }
 
         #div3 
@@ -40,6 +46,8 @@
             height: 100px;
             background-color: lightpink;
             margin-bottom: 10px;
+            position:absolute;
+            bottom:5px;
         }
 
         #div4
@@ -48,6 +56,8 @@
             height: 100px;
             background-color: mediumpurple;
             margin-bottom: 10px;
+            position:sticky;
+            top:0px;
         }
 
         #div5
@@ -64,8 +74,34 @@
             height: 100px;
             background-color: dodgerblue;
             margin-bottom: 10px;
+            display:inline;
         }
 
+        .sp1
+        {
+            width:100px;
+            height:100px;
+            background-color:deepskyblue;
+            margin:10px;
+            display:inline-block;
+        }
+
+        .dv1 
+        {
+            width: 100px;
+            height: 100px;
+            background-color: deepskyblue;
+            margin: 10px;
+            display:block;
+        }
+        #foot
+        {
+            height:100px;
+            background-color:gray;
+            display:flex;
+            flex-direction:row;
+            align-items:center;
+        }
         
 
     </style>
@@ -73,6 +109,27 @@
 </head>
 
 <body>
+    <div id="foot">
+        <div id="f1">
+            <img src="head1.png" style="height:50px;" />
+        </div>
+
+        <div id="f2">
+            Management Information Systems
+            307 W. Brooks, Adams Hall, Room 3230
+            Norman, Oklahoma 73019
+            (405) 325-5721
+        </div>
+
+    </div>
+    <span class="sp1">span1</span>
+    <span class="sp1">span2</span>
+    <span class="sp1">span3</span>
+
+    <div class="dv1">div1</div>
+    <div class="dv1">div2</div>
+    <div class="dv1">div3</div>
+
     <div id="main">
         <div id="div1">div1</div>
         <div id="div2">div2</div>
