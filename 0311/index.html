@@ -23,6 +23,84 @@
 </head>
 
 <body>
+    <script>
+        // HTML CSS (Not a programming language)
+        // JavaScript New Topic, stand-alone language
+        // BScript
+        // LiveScript => (JavaScript)
+        // Java and JavaScript
+        // not type safe language (not strict)
+        // JavaScript popular because its very easy to learn
+        // rule to javacsript
+        //
+        // even if theres many scripts they are still together 
+        // s1
+        "use strict"; // used to tell us if theres mistakes
+        //define variable
+        {// walls,block,small world 
+            const age1=20;// undefined flexible, local variable 
+            let age2;;// local variable, let is a key word to define a local variable 
+            var v1;// global variable
+
+            age2 = 20; //valid becasue age 2 is in this block, age2 is a number now 
+            age2 = 128.8;// also valid 
+            age2 = 'tom'; // can also use ""
+            age2 = ``; // below esc on keyboard
+
+            let name = "tom";
+            let age = 20;
+
+            let str = `The name is ${name}. The age is ${age}`;
+
+            console.log(str);//
+            //alert(str);
+
+            let stu;// undefined, local variable
+
+            //object, dictionary 
+            stu = {
+                name: "Tom",
+                age: 20,
+                grade: 96.6,
+            };
+            console.log(stu.grade);
+
+            let arr1;//local, undefined 
+            arr1 = ["Tom", "Jack"];
+            console.log(arr1.length);// # of names in the array
+            console.log(arr1[1]);
+
+            //define function
+            // way 1, no let 
+            function func1(p1,p2) 
+            {
+                return p1 + p2;// return is not mandatory 
+            }
+
+            // way 2 arrow function 
+            // ; is not mandatory 
+            let func2 = (p1, p2) =>
+            {
+                return p1 * p2;
+            };
+
+            console.log(func1(2.3,3.0));
+            console.log(func2(2.3,3.0));
+
+        }
+
+    </script>
+
+    <script>
+        //s2
+        "use strict";
+        {
+            //age2 = 20;
+            v1 = 20; // valid bc var is a global variable 
+        }
+    </script>
+
+
     <div id="div1"></div>
     <img id="img1" src="head1.png"/>
     <img id="img2" src="b.svg"/>
