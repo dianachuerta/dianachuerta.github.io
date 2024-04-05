@@ -1,29 +1,139 @@
 <html>
 <head>
-    <title>MIS 3033 Exam 2 Spring 2024 [exam code] Diana Huerta</title>
+    <title>MIS 3033 Exam 2 Spring 2024 LZAA Diana Huerta</title>
     <link rel="icon" href="static/img/head2.png" />
-    <link rel="stylesheet" href="static/site.css"/>
+    <link rel="stylesheet" href="static/site.css" />
     <style>
-        #body
+        #body 
         {
-            margin:10px;
+            margin: 10px;
+            margin-right: auto;
+            margin-left: auto;
+            width: 1000px;
+            height: 100px;
         }
+
+        #header 
+        {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: end;
+        }
+
+        #content 
+        {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            
+            
+        }
+
+        #leftdiv
+        {
+            width:480px;
+            border-radius:10px;
+            border-style:solid;
+            border-color:darkgray;
+            border-width:2px;
+            
+        }
+
+        #footer 
+        {
+            background-color:aliceblue;
+            color:darkgrey;
+            border-radius:5px;
+            display:flex;
+            flex-direction:row;
+            justify-content:center;
+            align-items:center;
+            height:50px;
+          
+
+        }
+
+        #updiv 
+        {
+            width: 480px;
+            border-radius: 10px;
+            border-style: solid;
+            border-color: darkgray;
+            border-width: 2px;
+            margin-top:2px;
+        }
+
+        #downdiv 
+        {
+            border-radius: 10px;
+            border-style: solid;
+            border-color: darkgray;
+            border-width: 2px;
+            margin-top:2px;
+        }
+
+        #rightdiv
+        {
+            width:480px;
+        }
+
     </style>
 </head>
 <body>
-    [Exam Code]
+    LZAA
 
-    <img src="static/img/a.svg"style="height:50px;"/>
-    <img src="static/img/b.svg"style="height:50px;"/>
-    <img src="static/img/css.svg"style="height:50px;"/>
-    <img src="static/img/html.svg"style="height:50px;"/>
-    <img src="static/img/head1.png"style="height:50px;"/>
-    <img src="static/img/head2.png"style="height:50px;"/>
-    <img src="static/img/javascript.svg"style="height:50px;"/>
-    <img src="static/img/linkedin.png"style="height:50px;"/>
-    <img src="static/img/logo.svg"style="height:50px;"/>
-    <img src="static/img/sqlite.svg"style="height:50px;"/>
+    <div id="body">
+
+        <div id="header">
+            <div style="font-size:30pt;color:dodgerblue;text-transform:uppercase;font-weight:bold;">
+                I love programming!
+            </div>
+            <div>
+                <img src="static/img/a.svg" style="height:100px;" />
+            </div>
+        </div>
+        <div id="content">
+
+            <div id="leftdiv">
+                <div style="color:dodgerblue;font-size:20pt;font-weight:bold;display:flex;flex-direction:column;align-items:center;">
+                    I love MIS3033
+                </div>
+                <div>
+                    <img src="static/img/b.svg" style="width:400px;" />
+                </div>
+            </div>
+            <div id="rightdiv">
+                <div id="updiv">
+                    <spans style="font-size:20px;font-weight:bold;background-color:lightskyblue;border-radius:5px;">What I already learned!</spans>
+
+                    <ul>
+                        <li>C#</li>
+                        <li>C# Entity Framework</li>
+                        <li>Database Sqlite</li>
+                        <li>HTML & CSS</li>
+                    </ul>
+                </div>
+                <div id="downdiv">
+                    <span style="font-size:20px;font-weight:bold;">What I am going to learn next:</span>
+                    <ol>
+                        <li>JavaScript</li>
+                        <li>BootStrap</li>
+                        <li>ASP.NET MVC</li>
+                        <li>Web REST API</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            Designed and Developed by Diana Huerta for MIS 3033 Exam 2
+        </div>
+
+
+
+    </div>
 
 
 </body>
 </html>
+
