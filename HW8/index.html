@@ -1,172 +1,141 @@
 <html>
-
 <head>
     <script src="https://juxinglong.github.io/static/iframe-resizer/iframeResizer.contentWindow.min.js"></script>
-    <title>HW 8 MIS 3033</title>
+    <title>Practice</title>
 
     <style>
-        #main
+        #maindiv
         {
-           /* background-color:lightblue;*/
             width:1200px;
-            margin-left:auto;
             margin-right:auto;
+            margin-left:auto;
         }
 
         #header
         {
-           /* background-color:lightcoral;*/
             color:dodgerblue;
             font-size:20pt;
             font-weight:bold;
-        }
-
-        #footer
-        {
-            background-color:#faf7f7;
-            color:dimgrey;
             display:flex;
             flex-direction:row;
-            justify-content:center;
 
-        }
-
-        #content2
-        {
-            /*background-color:#ededed;*/
-
-
-        }
-
-        .title1
-        {
-            font-size:30px;
-            font-weight:bold;
         }
 
         #leftdiv
         {
-            /*background-color:lightgreen;*/
             width:400px;
             display:flex;
             flex-direction:column;
-            align-items:center; /*// horizontal center*/
             justify-content:center;
+            align-items:center;
+        }
+
+        .title
+        {
+            font-weight:bold;
+            font-size:30px;
         }
 
         #rightdiv
         {
-            /*background-color:lightgoldenrodyellow;*/
-            width:800px;
+            
+    
+        }
+
+        #updiv
+        {
+            
         }
 
         #content1
         {
             display:flex;
             flex-direction:row;
-           
         }
 
-        #updiv
-        {
-            /*background-color:lightseagreen;*/
-        }
+       #downdiv
+       {
+           display:flex;
+           flex-direction:row;
+       }
 
-        #downdiv
-        {
-           /* background-color:mediumpurple;*/
-            display:flex;
-            flex-direction:row;
+       #content2
+       {
+           background-color:#ededed;
+       }
+
+       #footer
+       {
+           background-color:#faf7f7;
+           color:dimgrey;
+           display:flex;
+           flex-direction:row;
+           align-items:center;
+           justify-content:center;
 
 
-        }
+       }
 
-        #idiv
-        {
-            /*background-color:deeppink;*/
 
-        }
-
-        #ediv
-        {
-            /*background-color:blue;*/
-        }
 
     </style>
 </head>
-
-
 <body>
-    <div id="main">
+    <div id="maindiv">
+
         <div id="header">
             Diana Huerta's Website
         </div>
 
         <div id="content1">
-
             <div id="leftdiv">
                 <div>
                     <img src="static/head1.png" style="width:200px;border-radius:50%;"/>
                 </div>
-
                 <div style="font-size:30px;">
-                    Diana Huerta 
+                    Diana Huerta
                 </div>
-
+                <div style="font-size:20px;color:dimgrey;">
+                    University of Oklahoma
+                </div>
                 <div style="font-size:20px;color:dimgrey;">
                     Student in Management Information Systems
                 </div>
-
-                <div style="font-size:20px;color:dimgrey;">
-                    The University of Oklahoma
-                </div>
-
                 <div>
-                    <a href="mailto:xinglong.ju@ou.edu" target="_blank">
-                        <img src="static/email.png" style="width:30px;" />
+                    <a href="" target="_blank">
+                        <img src="static/email.png" style="width:30px;"/>
                     </a>
 
-                    <a href="https://www.linkedin.com/" target="_blank">
-                        <img src="static/linkedin.png" style="width:30px;" />
+                    <a href="" target="_blank">
+                        <img src="static/linkedin.png" style="width:30px;"/>
                     </a>
 
-                    <a href="https://twitter.com/" target="_blank">
-                        <img src="static/twitterl.png" style="width:30px;" />
+                    <a href="" target="_blank">
+                        <img src="static/twitter.png" style="width:30px;" />
                     </a>
 
-                    <a href="https://www.instagram.com" target="_blank">
-                        <img src="static/instagram.png" style="width:30px;" />
+                    <a href="" target="_blank">
+                        <img src="static/instagram.png" style="width:30px;"/>
                     </a>
-
                 </div>
-
-                
             </div>
 
             <div id="rightdiv">
-
                 <div id="updiv">
-                    <span class="title1">Biography</span>
-                    .<br />
-                    .<br />
+                    <span class="title">Biography</span>
+                    <br />
 
-                    I am a Senior student in Management Information Systems at The University of Oklahoma. I am on the 2022/2023 job market..<br /><br />
+                    I am a Senior student in Management Information Systems at The University of Oklahoma. I am on the 2022/2023 job market.<br /><br />
 
                     My study focuses on data analytics and I am good at programming (Console, Desktop and Web Applications) and databases management.<br /><br />
 
-                    For more information, please refer to my CV.
-                    <a href="static/CV.pdf">CV</a>
+                    For more information, please refer to my 
+                    <a href="static/CV.pdf">CV.</a>
 
-                    <br />
-                    <br />
                 </div>
-
                 <div id="downdiv">
                     <div id="idiv">
-                        <span class="title1">
-                            Interests
-                        </span>
-                       
+                        <span class="title">Interests</span>
                         <ol>
                             <li>Analyst/Programmer</li>
                             <li>Business Analyst</li>
@@ -174,48 +143,47 @@
                             <li>Web Developer</li>
                             <li>Data Scientists</li>
                         </ol>
+                      
                     </div>
-
                     <div id="ediv">
-                        <span class="title1">Education</span>
-                        
+                        <span class="title">Education</span>
+                       
                         <ul>
                             <li>
                                 M.S. in Management Information Systems, 2024<br />
                                 The University of Oklahoma
                             </li>
-
                             <li>
                                 B.E. in Management Information Systems, 2022<br />
                                 The University of Oklahoma
                             </li>
                         </ul>
+                        
 
                        
+
+
                     </div>
                 </div>
-
             </div>
         </div>
 
         <div id="content2">
-            <span class="title1">Recent News</span>
-
+            <span class="title">Recent News</span>
+            <br /><br />
             <ul>
                 <li>Learning C# Web Application Design</li>
-                <li>Learning C# EF</li>
+                <li>Learning C# WPF</li>
             </ul>
-           
 
-            Designed and Published by Xinglog Ju
         </div>
-
         <div id="footer">
-            Designed and Published by Diana Huerta
+            Designed by Diana Huerta 
         </div>
+
+
+
+
     </div>
-
 </body>
-
-
 </html>
